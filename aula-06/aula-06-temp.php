@@ -1,2 +1,3 @@
 <?php
-apenas um teste
+
+echo "Arquivo temporario";
