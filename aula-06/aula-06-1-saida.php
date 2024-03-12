@@ -10,4 +10,4 @@ $variavel = 55;
 var_dump($variavel);
 
 $modelosDeCarros = array("Sandero", "Gol", "Belina", "Fusca");
-var_dump($variavel);
+var_dump($modelosDeCarros);
