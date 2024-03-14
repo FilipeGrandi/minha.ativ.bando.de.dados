@@ -6,8 +6,14 @@ echo "Fala aí rapaziada!!!";
 
 print("Pode ser assim também");
 
+// declaração de variável
 $variavel = 55;
 var_dump($variavel);
 
-$modelosDeCarros = array("Sandero", "Gol", "Belina", "Fusca");
+$variavel = "Aluno";
+var_dump($variavel);
+
+$modelosDeCarros = array("Sandero", "Gol", "Belina", 150 ,"Fusca");
 var_dump($modelosDeCarros);
+
+echo "Apenas um dos itens: " . $modelosDeCarros[2]. PHP_EOL;

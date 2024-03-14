@@ -14,4 +14,7 @@
  * Isso também é um comentário - ESPECIAL
  * Usado para documentação
  */
-
+echo "<pre>";
+echo "Olá Mundo!" . PHP_EOL;
+print("Esse é o print imprimindo da tela" . PHP_EOL);
+echo "</pre>";
