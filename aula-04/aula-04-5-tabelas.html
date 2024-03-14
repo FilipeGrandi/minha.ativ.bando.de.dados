@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 4 - Tabelas em HTML</title>
+
+    <!-- podemos usar CSS para formatar um tabela -->
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(140 140 140);
+            font-family: sans-serif;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+        }
+
+        caption {
+            caption-side: top;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        thead,
+        tfoot {
+            background-color: rgb(228 240 245);
+        }
+
+        th,
+        td {
+            border: 1px solid rgb(160 160 160);
+            padding: 8px 10px;
+        }
+
+        td:last-of-type {
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+<p>O básico de tabelas</p>
+
+<table> <!-- Corpo da tabela -->
+    <caption>Título da Tabela</caption>
+    <thead> <!-- CABEÇALHO -->
+    <tr> <!-- Linha da tabela -->
+        <th>Cabeçalho 1</th> <!-- Linha de dados de CABEÇALHO -->
+        <th>Cabeçalho 2</th>
+        <th>Cabeçalho 3</th>
+    </tr>
+    </thead>
+    <tr>
+        <td>Dado 1</td> <!-- Linha de DADOS -->
+        <td>Dado 2</td>
+        <td>Dado 3</td>
+    </tr>
+    <tr>
+        <td colspan="2">Total</td> <!-- Linha com coluna expandida com COLSPAN  -->
+
+        <!-- o TD anterior EXPANDIU e agora ocupa essa posição da tabela -->
+
+        <td>3</td>
+    </tr>
+    <tfoot>
+    <tr>
+        <td colspan="3">Rodapé da Tabela</td>
+    </tr>
+    </tfoot>
+</table>
+
+
+</body>
+</html>
