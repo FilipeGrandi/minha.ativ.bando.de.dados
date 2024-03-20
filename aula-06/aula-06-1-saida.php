@@ -2,9 +2,9 @@
 
 // Comandos básicos de saída
 
-echo "Fala aí rapaziada!!!";
+echo "Fala aí rapaziada!!!" . PHP_EOL;
 
-print("Pode ser assim também");
+print("Pode ser assim também \n");
 
 // declaração de variável
 $variavel = 55;

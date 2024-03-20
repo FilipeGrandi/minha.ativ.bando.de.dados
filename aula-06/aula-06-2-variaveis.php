@@ -16,3 +16,8 @@ echo "b: ". $b . PHP_EOL;
 // Podemos sobrepor os valores atribuídos a uma variável
 $b = 30;
 echo "b: ". $b . PHP_EOL;
+
+
+$valor = readline("Digite um valor: ");
+
+echo "O valor digitado foi: {$valor}";
