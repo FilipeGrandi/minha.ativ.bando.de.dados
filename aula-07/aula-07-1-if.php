@@ -3,9 +3,9 @@ $nota = readline("Digite uma nota entre 0 e 10: ");
 
 if ($nota >= 6) {
     $resultado = "Aprovado";
-} else if ($nota >= 4) {
+}else if($nota >=4){
     $resultado = "Recuperação";
-} else {
+}else{
     $resultado = "Reprovado";
 }
 
