@@ -1,7 +1,6 @@
 <?php
 
-//$servidor = "localhost";
-$servidor = "192.169.3.15";
+$servidor = "localhost";
 $banco = "banco_aula";
 $usuario = "root";
 $senha = "";

@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $usuario = filter_input(INPUT_POST, 'usuario', FILTER_SANITIZE_SPECIAL_CHARS);
 
     // conecta no banco de dados
-    $dbhost = "192.168.3.16";
+    $dbhost = "localhost";
     $dbname = "banco_aula";
     $username = "root";
     $password = "root";
@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $resultado->execute($data);
         // se tudo deu certo, faz o registro final no banco de dados
         $con->commit();
-        header('Location: aula-11-3.php?insert=sucess');
+        header('Location: aula-11-3.php?insert=success');
     } catch (Exception $e) {
         // se deu algum problema, desfaz tudo
         $con->rollback();
