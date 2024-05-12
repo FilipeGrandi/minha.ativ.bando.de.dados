@@ -1,6 +1,7 @@
 <?php
 
 global $pdo;
+
 require_once("conecta.php");
 require_once("Usuarios.php");
 
@@ -21,7 +22,7 @@ print_r($lista);
 
 
 // Descomente para atualizar
-//$atualizado = $usuario->atualizar(5,"maria","maria@teste.com.br","novasenha");
+//$atualizado = $usuario->atualizar(3,"maria","maria@teste.com.br","novasenha");
 
 //$lista = $usuario->listarTodos();
 //echo "Listando - 02:".PHP_EOL;
@@ -31,7 +32,7 @@ print_r($lista);
 
 // Descomente para deletar um ID
 //$deletado = $usuario->excluir(3);
-
+//
 //$lista = $usuario->listarTodos();
 //echo "Listando - 03:".PHP_EOL;
 //echo "==================================".PHP_EOL;

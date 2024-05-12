@@ -19,7 +19,6 @@ class Usuarios
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
-    // Método para inserir um novo usuário
     public function inserir($nome, $email, $senha)
     {
         $sql = "INSERT INTO usuarios (id, nome, email, senha) VALUES (NULL, :nome, :email, :senha)";
