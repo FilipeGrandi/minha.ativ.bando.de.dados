@@ -2,7 +2,7 @@
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Índices das aulas</title>
 </head>
 <body>
 
