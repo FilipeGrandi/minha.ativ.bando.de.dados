@@ -1,6 +1,5 @@
 <?php
 
-
 $dbFile = 'banco_aula.sqlite'; // Nome do arquivo do banco de dados
 
 try {
@@ -12,4 +11,7 @@ try {
     echo "Erro ao conectar com o banco de dados SQLite3: " . $e->getMessage() . "\n";
     die();
 }
+
+
+
 
